@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-04T00:48:10.061640",
+    "source_files": [
+      "2018-09-21-capture.pcap"
+    ],
+    "total_hosts": 3,
+    "subnet": "auto-detected",
+    "min_packets_threshold": 2,
+    "label": "CTU-Honeypot-Capture-5-1"
+  },
+  "profiles_detail": [
+    {
+      "ip": "192.168.2.1",
+      "oui": "82:e6:50",
+      "mac": "82:e6:50:12:14:64",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "RTP"
+      ],
+      "pkt_count": 1522,
+      "proto_codes": [
+        1,
+        17
+      ],
+      "peers_ext": 0,
+      "peers_int": 2,
+      "first_seen": 1537522826,
+      "last_seen": 1537542403
+    },
+    {
+      "ip": "192.168.2.3",
+      "oui": "4c:ef:c0",
+      "mac": "4c:ef:c0:27:56:1e",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "NTP",
+        "RTP"
+      ],
+      "pkt_count": 139636,
+      "proto_codes": [
+        1,
+        6,
+        17
+      ],
+      "peers_ext": 118,
+      "peers_int": 1,
+      "first_seen": 1537523549,
+      "last_seen": 1537541587
+    },
+    {
+      "ip": "192.168.69.1",
+      "oui": "dc:53:7c",
+      "mac": "dc:53:7c:8e:53:d5",
+      "svc": [
+        "DHCP",
+        "DNS"
+      ],
+      "pkt_count": 3,
+      "proto_codes": [
+        17
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1537542434,
+      "last_seen": 1537542438
+    }
+  ],
+  "profiles_notebook": [
+    {
+      "oui": "82:e6:50",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "RTP"
+      ]
+    },
+    {
+      "oui": "4c:ef:c0",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "NTP",
+        "RTP"
+      ]
+    },
+    {
+      "oui": "dc:53:7c",
+      "svc": [
+        "DHCP",
+        "DNS"
+      ]
+    }
+  ]
+}

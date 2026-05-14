@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-04T00:47:58.810864",
+    "source_files": [
+      "2018-09-14-13-40-25-Philips-Hue-Bridge.pcap",
+      "2018-10-25-14-06-32-192.168.1.132.pcap"
+    ],
+    "total_hosts": 5,
+    "subnet": "auto-detected",
+    "min_packets_threshold": 2,
+    "label": "CTU-Honeypot-Capture-4-1"
+  },
+  "profiles_detail": [
+    {
+      "ip": "192.168.1.1",
+      "oui": "78:8a:20",
+      "mac": "78:8a:20:43:93:d5",
+      "svc": [
+        "DHCP",
+        "DNS"
+      ],
+      "pkt_count": 193,
+      "proto_codes": [
+        17
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1540469831,
+      "last_seen": 1540547242
+    },
+    {
+      "ip": "192.168.1.132",
+      "oui": "00:17:88",
+      "mac": "00:17:88:75:b3:82",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "NTP"
+      ],
+      "pkt_count": 4339,
+      "proto_codes": [
+        6,
+        17
+      ],
+      "peers_ext": 13,
+      "peers_int": 1,
+      "first_seen": 1540469198,
+      "last_seen": 1540548038
+    },
+    {
+      "ip": "192.168.100.1",
+      "oui": "78:8a:20",
+      "mac": "78:8a:20:43:93:d5",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS"
+      ],
+      "pkt_count": 373,
+      "proto_codes": [
+        1,
+        6,
+        17
+      ],
+      "peers_ext": 0,
+      "peers_int": 2,
+      "first_seen": 1536925612,
+      "last_seen": 1536927537
+    },
+    {
+      "ip": "192.168.100.118",
+      "oui": "00:17:88",
+      "mac": "00:17:88:75:b3:82",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "NTP"
+      ],
+      "pkt_count": 1032,
+      "proto_codes": [
+        1,
+        6,
+        17
+      ],
+      "peers_ext": 19,
+      "peers_int": 1,
+      "first_seen": 1536925617,
+      "last_seen": 1536927568
+    },
+    {
+      "ip": "192.168.100.119",
+      "oui": "9c:f4:8e",
+      "mac": "9c:f4:8e:65:c4:4d",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "RDP",
+        "RTP",
+        "XMPP"
+      ],
+      "pkt_count": 2442,
+      "proto_codes": [
+        1,
+        6,
+        17
+      ],
+      "peers_ext": 46,
+      "peers_int": 4,
+      "first_seen": 1536926476,
+      "last_seen": 1536927548
+    }
+  ],
+  "profiles_notebook": [
+    {
+      "oui": "78:8a:20",
+      "svc": [
+        "DHCP",
+        "DNS"
+      ]
+    },
+    {
+      "oui": "00:17:88",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "NTP"
+      ]
+    },
+    {
+      "oui": "78:8a:20",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS"
+      ]
+    },
+    {
+      "oui": "00:17:88",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "NTP"
+      ]
+    },
+    {
+      "oui": "9c:f4:8e",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "RDP",
+        "RTP",
+        "XMPP"
+      ]
+    }
+  ]
+}

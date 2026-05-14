@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-04T21:19:32.846279",
+    "source_files": [
+      "honeynet-capture-v2.pcap"
+    ],
+    "total_hosts": 25,
+    "subnet": "auto-detected",
+    "min_packets_threshold": 2,
+    "label": "GNS3-Honeynet-5VLAN"
+  },
+  "profiles_detail": [
+    {
+      "ip": "192.168.10.101",
+      "oui": "14:18:77",
+      "mac": "14:18:77:00:00:01",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ],
+      "pkt_count": 330,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898451,
+      "last_seen": 1777898609
+    },
+    {
+      "ip": "192.168.10.102",
+      "oui": "14:18:77",
+      "mac": "14:18:77:00:00:02",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ],
+      "pkt_count": 329,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898451,
+      "last_seen": 1777898609
+    },
+    {
+      "ip": "192.168.10.103",
+      "oui": "14:18:77",
+      "mac": "14:18:77:00:00:03",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ],
+      "pkt_count": 328,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898451,
+      "last_seen": 1777898609
+    },
+    {
+      "ip": "192.168.10.104",
+      "oui": "14:18:77",
+      "mac": "14:18:77:00:00:04",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ],
+      "pkt_count": 329,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898451,
+      "last_seen": 1777898609
+    },
+    {
+      "ip": "192.168.10.200",
+      "oui": "ca:fe:00",
+      "mac": "ca:fe:00:00:00:21",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ],
+      "pkt_count": 2067,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 4,
+      "first_seen": 1777898451,
+      "last_seen": 1777898609
+    },
+    {
+      "ip": "192.168.20.101",
+      "oui": "3c:d9:2b",
+      "mac": "3c:d9:2b:00:00:01",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ],
+      "pkt_count": 450,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898609,
+      "last_seen": 1777898774
+    },
+    {
+      "ip": "192.168.20.102",
+      "oui": "3c:d9:2b",
+      "mac": "3c:d9:2b:00:00:02",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ],
+      "pkt_count": 448,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898609,
+      "last_seen": 1777898774
+    },
+    {
+      "ip": "192.168.20.103",
+      "oui": "3c:d9:2b",
+      "mac": "3c:d9:2b:00:00:03",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ],
+      "pkt_count": 444,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898609,
+      "last_seen": 1777898774
+    },
+    {
+      "ip": "192.168.20.104",
+      "oui": "3c:d9:2b",
+      "mac": "3c:d9:2b:00:00:04",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ],
+      "pkt_count": 450,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898609,
+      "last_seen": 1777898774
+    },
+    {
+      "ip": "192.168.20.200",
+      "oui": "ca:fe:00",
+      "mac": "ca:fe:00:00:00:21",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ],
+      "pkt_count": 2585,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 4,
+      "first_seen": 1777898609,
+      "last_seen": 1777898774
+    },
+    {
+      "ip": "192.168.30.101",
+      "oui": "00:00:85",
+      "mac": "00:00:85:00:00:01",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ],
+      "pkt_count": 198,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898774,
+      "last_seen": 1777898962
+    },
+    {
+      "ip": "192.168.30.102",
+      "oui": "00:00:85",
+      "mac": "00:00:85:00:00:02",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ],
+      "pkt_count": 187,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898774,
+      "last_seen": 1777898962
+    },
+    {
+      "ip": "192.168.30.103",
+      "oui": "00:00:85",
+      "mac": "00:00:85:00:00:03",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ],
+      "pkt_count": 198,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898774,
+      "last_seen": 1777898962
+    },
+    {
+      "ip": "192.168.30.104",
+      "oui": "00:00:85",
+      "mac": "00:00:85:00:00:04",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ],
+      "pkt_count": 189,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898774,
+      "last_seen": 1777898962
+    },
+    {
+      "ip": "192.168.30.200",
+      "oui": "ca:fe:00",
+      "mac": "ca:fe:00:00:00:21",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ],
+      "pkt_count": 1160,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 4,
+      "first_seen": 1777898774,
+      "last_seen": 1777898962
+    },
+    {
+      "ip": "192.168.40.101",
+      "oui": "00:1b:d5",
+      "mac": "00:1b:d5:00:00:01",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ],
+      "pkt_count": 268,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898962,
+      "last_seen": 1777899161
+    },
+    {
+      "ip": "192.168.40.102",
+      "oui": "00:1b:d5",
+      "mac": "00:1b:d5:00:00:02",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ],
+      "pkt_count": 268,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898962,
+      "last_seen": 1777899161
+    },
+    {
+      "ip": "192.168.40.103",
+      "oui": "00:1b:d5",
+      "mac": "00:1b:d5:00:00:03",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ],
+      "pkt_count": 269,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898962,
+      "last_seen": 1777899161
+    },
+    {
+      "ip": "192.168.40.104",
+      "oui": "00:1b:d5",
+      "mac": "00:1b:d5:00:00:04",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ],
+      "pkt_count": 269,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777898962,
+      "last_seen": 1777899161
+    },
+    {
+      "ip": "192.168.40.200",
+      "oui": "ca:fe:00",
+      "mac": "ca:fe:00:00:00:21",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ],
+      "pkt_count": 1702,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 4,
+      "first_seen": 1777898962,
+      "last_seen": 1777899161
+    },
+    {
+      "ip": "192.168.50.101",
+      "oui": "00:1a:a1",
+      "mac": "00:1a:a1:00:00:01",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ],
+      "pkt_count": 215,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777899161,
+      "last_seen": 1777899323
+    },
+    {
+      "ip": "192.168.50.102",
+      "oui": "00:1a:a1",
+      "mac": "00:1a:a1:00:00:02",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ],
+      "pkt_count": 215,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777899161,
+      "last_seen": 1777899323
+    },
+    {
+      "ip": "192.168.50.103",
+      "oui": "00:1a:a1",
+      "mac": "00:1a:a1:00:00:03",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ],
+      "pkt_count": 215,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777899161,
+      "last_seen": 1777899323
+    },
+    {
+      "ip": "192.168.50.104",
+      "oui": "00:1a:a1",
+      "mac": "00:1a:a1:00:00:04",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ],
+      "pkt_count": 215,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1777899161,
+      "last_seen": 1777899323
+    },
+    {
+      "ip": "192.168.50.200",
+      "oui": "ca:fe:00",
+      "mac": "ca:fe:00:00:00:21",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ],
+      "pkt_count": 1367,
+      "proto_codes": [
+        6
+      ],
+      "peers_ext": 0,
+      "peers_int": 4,
+      "first_seen": 1777899161,
+      "last_seen": 1777899323
+    }
+  ],
+  "profiles_notebook": [
+    {
+      "oui": "14:18:77",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ]
+    },
+    {
+      "oui": "14:18:77",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ]
+    },
+    {
+      "oui": "14:18:77",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ]
+    },
+    {
+      "oui": "14:18:77",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ]
+    },
+    {
+      "oui": "ca:fe:00",
+      "svc": [
+        "HTTP",
+        "RDP",
+        "SMB"
+      ]
+    },
+    {
+      "oui": "3c:d9:2b",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ]
+    },
+    {
+      "oui": "3c:d9:2b",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ]
+    },
+    {
+      "oui": "3c:d9:2b",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ]
+    },
+    {
+      "oui": "3c:d9:2b",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ]
+    },
+    {
+      "oui": "ca:fe:00",
+      "svc": [
+        "DNS",
+        "HTTP",
+        "HTTPS",
+        "SMTP",
+        "SSH"
+      ]
+    },
+    {
+      "oui": "00:00:85",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ]
+    },
+    {
+      "oui": "00:00:85",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ]
+    },
+    {
+      "oui": "00:00:85",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ]
+    },
+    {
+      "oui": "00:00:85",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ]
+    },
+    {
+      "oui": "ca:fe:00",
+      "svc": [
+        "HTTP",
+        "IPP"
+      ]
+    },
+    {
+      "oui": "00:1b:d5",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ]
+    },
+    {
+      "oui": "00:1b:d5",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ]
+    },
+    {
+      "oui": "00:1b:d5",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ]
+    },
+    {
+      "oui": "00:1b:d5",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ]
+    },
+    {
+      "oui": "ca:fe:00",
+      "svc": [
+        "HTTP",
+        "SIP"
+      ]
+    },
+    {
+      "oui": "00:1a:a1",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ]
+    },
+    {
+      "oui": "00:1a:a1",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ]
+    },
+    {
+      "oui": "00:1a:a1",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ]
+    },
+    {
+      "oui": "00:1a:a1",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ]
+    },
+    {
+      "oui": "ca:fe:00",
+      "svc": [
+        "PORT830",
+        "SSH",
+        "SYSLOG",
+        "TELNET"
+      ]
+    }
+  ]
+}

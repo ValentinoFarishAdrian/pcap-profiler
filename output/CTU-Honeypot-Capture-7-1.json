@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-04T00:48:24.080579",
+    "source_files": [
+      "2019-07-03-15-15-47-first_start_somfy_gateway.pcap",
+      "2019-07-03-16-41-09-192.168.1.158.pcap",
+      "2019-07-04-16-41-10-192.168.1.158.pcap",
+      "2019-07-05-16-41-14-192.168.1.158.pcap",
+      "2019-07-06-16-41-17-192.168.1.158.pcap",
+      "2019-07-07-16-41-19-192.168.1.158.pcap"
+    ],
+    "total_hosts": 2,
+    "subnet": "auto-detected",
+    "min_packets_threshold": 2,
+    "label": "CTU-Honeypot-Capture-7-1"
+  },
+  "profiles_detail": [
+    {
+      "ip": "192.168.1.1",
+      "oui": "78:8a:20",
+      "mac": "78:8a:20:43:93:d5",
+      "svc": [
+        "DHCP",
+        "DNS"
+      ],
+      "pkt_count": 268,
+      "proto_codes": [
+        1,
+        17
+      ],
+      "peers_ext": 0,
+      "peers_int": 1,
+      "first_seen": 1562160300,
+      "last_seen": 1562593368
+    },
+    {
+      "ip": "192.168.1.158",
+      "oui": "5c:cf:7f",
+      "mac": "5c:cf:7f:1e:76:54",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTPS",
+        "NTP"
+      ],
+      "pkt_count": 239852,
+      "proto_codes": [
+        1,
+        6,
+        17
+      ],
+      "peers_ext": 103,
+      "peers_int": 1,
+      "first_seen": 1562160302,
+      "last_seen": 1562596873
+    }
+  ],
+  "profiles_notebook": [
+    {
+      "oui": "78:8a:20",
+      "svc": [
+        "DHCP",
+        "DNS"
+      ]
+    },
+    {
+      "oui": "5c:cf:7f",
+      "svc": [
+        "DHCP",
+        "DNS",
+        "HTTPS",
+        "NTP"
+      ]
+    }
+  ]
+}
